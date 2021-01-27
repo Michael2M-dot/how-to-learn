@@ -40,8 +40,8 @@
   font-weight: bold;
   line-height: 96px;
   margin: 0px;
-  z-index: 2;
   padding-left: 64px;
+  z-index: 2;
 }
 .header__subtitle{
     width: 388px;
@@ -49,16 +49,21 @@
     line-height: 25px;
     font-weight: normal;
     margin: 0;
-    z-index: 2;
     position: absolute;
     bottom: 30px;
     left: 64px;
+    z-index: 2;
 }
 
 .header__link{
   text-decoration: none;
   color: #2f80ed;
 }
+.header__link:hover{
+  color:rgb(35, 80, 139);
+  text-decoration: underline;
+}
+
 .header__main-illustration{
   width: 765px;
   height: 608px;
@@ -133,7 +138,7 @@
   padding-bottom: 30px;
 }
 
-.span-accent{
+.two-column__span-accent{
   font-weight: bolder;
 }
 
@@ -148,7 +153,7 @@
     line-height: 115%;
     font-weight: bolder;
     text-align: center;
-    margin: 0px;
+    margin: 0px auto;
 }
 .section-subtitle{
     width: 60%;
@@ -162,25 +167,25 @@
   display: flex;
   flex-wrap: wrap;
   width: 1100px;
-  margin: 0px;
+  margin: 0px auto;
   padding: 0px;
   list-style: none;
   justify-content: space-between;
   z-index: 1;
 }
-.table_cell{
+.table__cell{
   width: 250px;
   margin-top: 60px;
 }
 
-.table_heading{
+.table__heading{
   font-size: 24px;
   line-height: 115%;
   font-weight: bolder;
   margin: 0px;
 }
 
-.table_text{
+.table__text{
   font-size: 18px;
   line-height: 120%;
   margin-top:  20px;
@@ -190,7 +195,11 @@
 
 /* блок Фейнман */
 .feynman{
+  width: 100%;
   height: 790px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
   background-color: #f2f2f2;
   z-index: 0;
 }
@@ -206,7 +215,7 @@
 }
 
 .feynman__subtitle{
-  margin: 0px;
+  margin: 0px auto;
   font-size: 36px;
   font-weight: normal;
   line-height: 51px;
@@ -223,8 +232,12 @@
   top: 50%;
   color: #2f80ed;
 }
+.feynman__link:hover{
+  color:rgb(35, 80, 139);
+  text-decoration: underline;
+}
 
-.feynman__img{
+.feynman__image{
   width: 867px;
   height: 637px;
   position: absolute;
@@ -239,11 +252,16 @@
 
 /* блок Кауфман */
 .kaufman{
+  width: 100%;
+  display: flex;
+  position: relative;
+  flex-direction: column;
   background-color: #1f1f1f;
   overflow: hidden;
   z-index: 0;
   padding-top: 90px;
   padding-bottom: 90px;
+  color:white;
 }
 
 .kaufman__triangle{
@@ -260,16 +278,10 @@
 }
 
 /* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
+.section-title_theme_dark{
   width: 200px;
   margin-top: 80px;
-  color: white;
 }
-
-.table_theme_dark{
-   color: white;
-}
-
 
 /* блок Footer */
 .footer{
@@ -278,9 +290,10 @@
   background-color: #1f1f1f;
   display: flex;
   position: relative;
+  color: white;
 }
 
-.footer__column{
+.footer__columns{
   width: 90%;
   display: flex;
   position: relative;
@@ -319,27 +332,39 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: bolder;
-  
+  margin: 0px;
 }
-.column-link{
+.footer__column-link{
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  color: white;
   text-decoration: none;
-}
-.social-icon{
   color: white;
+}
+.footer__column-link:hover{
+   color:rgb(99, 96, 96);
+   text-decoration: underline;
+}
+.footer__social-icon{
   text-decoration: none;
   font-size: 18px;
   line-height: 30px;
+  color: white;
 }
-.link_social-icon_pic{
+.footer__social-icon:hover{
+   color:rgb(99, 96, 96);
+   text-decoration: underline;
+}
+.footer__link_social-icon_pic{
   width: 16px;
   height: 16px;
   padding-right: 10px;
 }
-
+.footer__link_social-icon_pic:hover{
+  width: 20px;
+  height: 20px;
+  color: white;
+}
 .footer__column_content_social{
   display: flex;
   position: relative;
