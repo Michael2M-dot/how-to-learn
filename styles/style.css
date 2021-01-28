@@ -304,14 +304,13 @@
 
 .footer__column_content_copyright{
   flex-basis: 711px;
-  flex-basis: 711px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;git
+  align-content: center;
 } 
 
-.footer__author{
+.footer__author{co
   margin-bottom: 18px;
   margin-top: 18px;
   font-size: 18px;
