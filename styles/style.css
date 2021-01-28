@@ -306,11 +306,11 @@
   flex-basis: 711px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;git
+  justify-content: space-between;
   align-content: center;
 } 
 
-.footer__author{co
+.footer__author{
   margin-bottom: 18px;
   margin-top: 18px;
   font-size: 18px;
