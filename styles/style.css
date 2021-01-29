@@ -346,6 +346,16 @@
   font-weight: bold;
   margin: 0;
 }
+.footer__social-icon{
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+}
+.footer__social-icon:hover{
+  width: 20px;
+  height: 20px;
+  padding-right: 10px;
+}
 .footer__column-link{
   font-size: 18px;
   line-height: 30px;
@@ -356,26 +366,6 @@
 .footer__column-link:hover{
    color:rgb(99, 96, 96);
    text-decoration: underline;
-}
-.footer__social-icon{
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 30px;
-  color: white;
-}
-.footer__social-icon:hover{
-   color:rgb(99, 96, 96);
-   text-decoration: underline;
-}
-.footer__social-icon{
-  width: 16px;
-  height: 16px;
-  padding-right: 10px;
-}
-.footer__social-icon:hover{
-  width: 20px;
-  height: 20px;
-  color: white;
 }
 .footer__column_content_social{
   justify-content: flex-start;
