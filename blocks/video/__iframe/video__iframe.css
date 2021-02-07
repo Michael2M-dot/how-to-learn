@@ -1,14 +1,15 @@
-.video__iframe{
+.video__iframe {
   width: 515px;
   height: 316px;
   margin-right: 20px;
   border: 0px;
 }
 
-.video__iframe:nth-of-type(2n){
+.video__iframe:nth-of-type(2n) {
   margin: 0px;
 }
 
-.video__iframe:hover{
-box-shadow: 0 0 30px rgba(12, 12, 12, 0.856);
+.video__iframe:hover {
+  -webkit-box-shadow: 0 0 30px rgba(12, 12, 12, 0.856);
+  box-shadow: 0 0 30px rgba(12, 12, 12, 0.856);
 }

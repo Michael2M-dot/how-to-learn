@@ -1,4 +1,5 @@
-.cards__image{
+.cards__image {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   border: 2px solid white;
   border-radius: 50%;

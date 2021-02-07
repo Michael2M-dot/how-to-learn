@@ -5,6 +5,8 @@
   text-decoration: none;
   color: white;
   opacity: 0.6;
+  -webkit-transition: opacity .5s ease .2s;
+  -o-transition: opacity .5s ease .2s;
   transition: opacity .5s ease .2s;
 }
 
