@@ -1,0 +1,29 @@
+.header__link {
+  text-decoration: none;
+  color: #2f80ed;
+  opacity: 0.7;
+  transition: opacity .5s ease .2s;
+  /* transition: text-decoration 3s ease 1s; */
+}
+
+/* !! экспремент с псевдоклассом */
+/* .header__link:visited { */
+  /* opacity: 1; */
+  /* text-decoration: underline; */
+  /* color: #3937a7; */
+/* } */
+
+/* !!применил свойство перехода и пока оставли подчеркивание!! */
+.header__link:hover {
+  /* color: rgb(35, 80, 139); */
+  text-decoration: underline;
+  opacity: 1;
+}
+
+/* !!пробовал масштаб на тексте - не работает!!
+?? подумать как изменить размер шрифта, но только так, чтобы не увеличивался размер строки 
+?? и контент не плясал.
+ */
+/* .header__link:hover {
+  transform: scale(1.3);
+} */

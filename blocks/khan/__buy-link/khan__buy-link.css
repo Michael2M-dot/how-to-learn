@@ -1,0 +1,40 @@
+.khan__buy-link{
+  height: fit-content;
+  text-decoration: none;
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: normal;
+  color: #2f80ed;
+  opacity: 0.6;
+  transition: opacity .5s ease .2s;
+}
+
+/* !!экспременты с псевдоклассами */
+/* .khan__buy-link:link {
+  color: rgb(125, 54, 192);
+  opacity: 1;
+  text-decoration: underline;
+} */
+
+
+/* .khan__buy-link:visited{ */
+/* opacity: 1; */
+/* text-decoration: underline; */
+/* color: #3937a7; */
+/* } */
+
+
+.khan__buy-link:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+

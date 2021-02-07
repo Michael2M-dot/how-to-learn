@@ -1,0 +1,18 @@
+/* !!доработаь адаптацию под Оперу и IE */
+
+@keyframes rotation {
+  from{
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+
+.rotation{
+  animation: rotation 20s linear infinite;
+}
+
+/* TODO как можно сделать чтобы менялся цвет квадрата!! */

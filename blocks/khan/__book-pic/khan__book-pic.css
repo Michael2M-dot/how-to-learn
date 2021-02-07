@@ -1,0 +1,12 @@
+.khan__book-pic{
+  width: 620px;
+  height: 608px;
+  object-fit: cover;
+  object-position: top;
+  margin: 0;
+  margin-right: 48px;
+}
+
+/* !!если оформляем изображение через img и там указываем место изображения
+!! то свойства бэкграунд не работают. если нужно поизционировать, то работает
+!! object-fit object-position */

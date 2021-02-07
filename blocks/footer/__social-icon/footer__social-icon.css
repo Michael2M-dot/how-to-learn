@@ -1,0 +1,24 @@
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  padding-right: 10px;
+  opacity: 0.7;
+  transition: opacity .5s ease .2s;
+
+}
+
+.footer__social-icon:hover {
+  /* width: 18px;
+  height: 18px; */
+  padding-right: 10px;
+  opacity: ;
+}
+
+/* сделал увеличение размера иконок по наведению курсора.
+изначально было реализовано через значения высоты и ширины
+Вариант с transform более интересный, т.к. при изпользовании
+простого изменения ширины, размер ячейки также менялся и появлялись 
+скачки контента в строчке */
+.footer__social-icon:hover {
+  transform: scale(1.5);
+}
