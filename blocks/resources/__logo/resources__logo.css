@@ -1,10 +1,16 @@
-.resources__logo{
+.resources__logo {
   width: 270px;
   height: 38px;
+  -webkit-transition: -webkit-box-shadow 0.4s ease-in-out;
+  transition: -webkit-box-shadow 0.4s ease-in-out;
+  -o-transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out;
+  transition: box-shadow 0.4s ease-in-out, -webkit-box-shadow 0.4s ease-in-out;
 }
 
-.resources__logo:hover{
-  box-shadow: 0 0 10px rgba(121, 118, 118, 0.521);
+.resources__logo:hover {
+  -webkit-box-shadow: 0 0 10px rgba(37, 37, 37, 0.63);
+  box-shadow: 0 0 10px rgba(37, 37, 37, 0.479);
 }
 
 /* ??как сделать полупрозрачный фон с подсветкой */
