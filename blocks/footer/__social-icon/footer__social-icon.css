@@ -12,7 +12,10 @@
   /* width: 18px;
   height: 18px; */
   padding-right: 10px;
-  opacity: ;
+  opacity: 1;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
 }
 
 /* сделал увеличение размера иконок по наведению курсора.
@@ -20,8 +23,3 @@
 Вариант с transform более интересный, т.к. при изпользовании
 простого изменения ширины, размер ячейки также менялся и появлялись 
 скачки контента в строчке */
-.footer__social-icon:hover {
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
-}
