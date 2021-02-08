@@ -16,3 +16,9 @@
   -webkit-box-shadow: 0 0 30px rgba(12, 12, 12, 0.856);
   box-shadow: 0 0 30px rgba(12, 12, 12, 0.856);
 }
+
+/* !!Освоить использование псевдоклассов для ссылок*/
+/* .video__iframe:active { */
+  /* -webkit-box-shadow: 0 0 30px rgba(219, 121, 121, 0.856); */
+  /* box-shadow: 0 0 30px rgba(219, 121, 121, 0.856); */
+/* } */
