@@ -8,9 +8,9 @@
   font-weight: normal;
   color: #2f80ed;
   opacity: 1;
-  -webkit-transition: opacity .5s ease .2s, -webkit-transform .5s ease .2s; 
-  -o-transition: opacity .5s ease .2s, transform .5s ease .2s; 
-  transition: opacity .5s ease .2s, transform .5s ease .2s; 
+  -webkit-transition: opacity .5s ease .2s, -webkit-transform .5s ease .2s;
+  -o-transition: opacity .5s ease .2s, transform .5s ease .2s;
+  transition: opacity .5s ease .2s, transform .5s ease .2s;
 }
 
 /* !!экспременты с псевдоклассами */
