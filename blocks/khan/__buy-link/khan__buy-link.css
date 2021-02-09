@@ -7,10 +7,10 @@
   line-height: 42px;
   font-weight: normal;
   color: #2f80ed;
-  opacity: 0.6;
-  -webkit-transition: opacity .5s ease .2s;
-  -o-transition: opacity .5s ease .2s;
-  transition: opacity .5s ease .2s;
+  opacity: 1;
+  -webkit-transition: opacity .5s ease .2s, -webkit-transform .5s ease .2s; 
+  -o-transition: opacity .5s ease .2s, transform .5s ease .2s; 
+  transition: opacity .5s ease .2s, transform .5s ease .2s; 
 }
 
 /* !!экспременты с псевдоклассами */
@@ -28,9 +28,12 @@
 /* } */
 
 
-.khan__buy-link:hover{
-  opacity: 1;
-  text-decoration: underline;
+.khan__buy-link:hover,
+.khan__buy-link:focus{
+  opacity: 0.8;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 

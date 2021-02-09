@@ -4,16 +4,38 @@
   font-weight: normal;
   text-decoration: none;
   color: white;
-  opacity: 0.6;
-  -webkit-transition: opacity .5s ease .2s;
-  -o-transition: opacity .5s ease .2s;
-  transition: opacity .5s ease .2s;
+  opacity: 1;
+  /* -webkit-transition: opacity .5s ease .2s; */
+  /* -o-transition: opacity .5s ease .2s; */
+  /* transition: opacity .5s ease .2s, box-shadow .5s, color .5s, background-color .5s, border .5s; */
+  -webkit-transition-property: opacity, color, background-color, border-radius, -webkit-box-shadow;
+  -o-transition-property: opacity,box-shadow,color,background-color,border-radius;
+  transition-property: opacity,box-shadow,color,background-color,border-radius;
+  -webkit-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-timing-function: ease-in;
+  -o-transition-timing-function: ease-in;
+  transition-timing-function: ease-in;
+  -webkit-transition-delay: .1s;
+  -o-transition-delay: .1s;
+  transition-delay: .1s;
 }
 
 /* использовал свойство transition для 
 изменения прозрачности */
-.footer__column-link:hover {
+/* !!изменил алгоритм изменения прозрачности для всех ссылок: при наведении курсора становится прозрачным!! */
+/* !!в футере оставил без изменения, на темном фоне лучше смотрится обратный эффект, когда ссылк астоновится более яркой при наведении курсора */
+/* !!реализовал анимацию с фоном и цветом текста */
+
+.footer__column-link:hover,
+.footer__column-link:focus {
   /* color: rgb(99, 96, 96); */
   /* text-decoration: underline; */
-  opacity: 1;
+  opacity: .8;
+  -webkit-box-shadow: 0 0 10px rgb(230, 230, 230);
+  box-shadow: 0 0 10px rgb(230, 230, 230);
+  color: black;
+  background-color: rgb(230, 230, 230);
+  border-radius: 5px;
 }

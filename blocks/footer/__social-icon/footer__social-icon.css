@@ -2,20 +2,22 @@
   width: 16px;
   height: 16px;
   padding-right: 10px;
-  opacity: 0.7;
+  opacity: 0.8;
   -webkit-transition: opacity .5s ease .2s;
   -o-transition: opacity .5s ease .2s;
-  transition: opacity .5s ease .2s;
+  transition: opacity .5s ease .2s, box-shadow .5s;
 }
 
-.footer__social-icon:hover {
+.footer__social-icon:hover,
+.footer__social-icon:focus {
   /* width: 18px;
   height: 18px; */
-  padding-right: 10px;
+  /* padding-right: 10px; */
   opacity: 1;
-  -webkit-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  transform: scale(1.5);
+  /* -webkit-transform: scale(1.5); */
+  /* -ms-transform: scale(1.5); */
+  /* transform: scale(1.5); */
+  /* box-shadow: 0 0 3px white; */
 }
 
 /* сделал увеличение размера иконок по наведению курсора.
@@ -23,3 +25,4 @@
 Вариант с transform более интересный, т.к. при изпользовании
 простого изменения ширины, размер ячейки также менялся и появлялись 
 скачки контента в строчке */
+/* !!закоментированы различные эксперементы по псевдоклассам */

@@ -7,16 +7,27 @@
   text-decoration: none;
   top: 50%;
   color: #2f80ed;
-  opacity: 0.7;
-  -webkit-transition: opacity .5s ease .2s;
-  -o-transition: opacity .5s ease .2s;
-  transition: opacity .5s ease .2s;
+  opacity: 1;
+  -webkit-transition: opacity .5s ease .2s, -webkit-transform .5s ease .2s; 
+  -o-transition: opacity .5s ease .2s, transform .5s ease .2s; 
+  transition: opacity .5s ease .2s, transform .5s ease .2s; 
+  /* transition: text-shadow 1s ease 1s; */
 }
 
 /* !!использовал свойство перехода для изменения прозрачности*/
-/*?? Оставил подчеркивание при наведении, нужно уточнить как одновременно сделать два перехода по разным свойствам*/
+/*?? Оставил подчеркивание при наведении, нужно уточнить как одновременно сделать два перехода по разным свойствам
+!! 1 вариант: перечисляем через запятую (если в одну строку). как в данном примере!
+!! 2 вариант: прописываем отдельно -property, -duration, -timing и -delay.  в этих свойствах через запятую пишем зимена свойств и их значения*/
+/* !!тень для текста при наведении смотрится не очень!! лучше использовать на темных фонах в светлой подсветке */
+/* !!можно задать прозрачность без использования opacity сделать через color поставить то же текст и назначить прозачность 
+!!color очень хорошо работает с bacground: например меняем фон с темного в светлый и текст наборот из светлого в темный*/
 
-.feynman__link:hover {
-  text-decoration: underline;
-  opacity: 1;
+.feynman__link:hover,
+.feynman__link:focus {
+  /* text-decoration: underline; */
+  opacity: 0.8;
+  /* text-shadow: 0 0 3px black; */
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }

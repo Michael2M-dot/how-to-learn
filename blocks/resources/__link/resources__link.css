@@ -1,0 +1,30 @@
+/* !!селектор создан для стилизации блока ссылок
+!!в бриффе такого задания не было, поэтому оформил дополнительно чтобы отдельно стилизовать ссылки и логотипы ссылок*/
+
+.resources__link {
+  -webkit-transition-property: border-radius, -webkit-box-shadow, -webkit-transform;
+  -o-transition-property: box-shadow, transform, border-radius;
+  transition-property: box-shadow, transform, border-radius;
+  -webkit-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  transition-duration: .3s;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-delay: 0.1s;
+  -o-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* !!оставил вариант только с увеличением масштаба. если добавить тень имасштаб одновременно
+ !!то начинает выделяется контур самой подложки картинки логотипа - т.к. разделил стили отдельно для ссылок
+ !!и самого изображения, теперь подсветка работает хорошо (это доработка не по брифу)*/
+.resources__link:hover,
+.resources__link:focus {
+  -webkit-box-shadow: 0 0 10px rgb(61, 61, 61);
+  box-shadow: 0 0 10px rgb(61, 61, 61);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  border-radius: 5px;
+}
