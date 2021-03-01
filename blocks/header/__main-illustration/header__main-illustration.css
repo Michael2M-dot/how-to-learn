@@ -1,6 +1,9 @@
 .header__main-illustration {
-  width: 765px;
-  height: 608px;
+  max-width: 765px;
+  min-width: 400px;
+  width: 53%;
+  max-height: 608px;
+  height:auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

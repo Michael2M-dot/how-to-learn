@@ -11,6 +11,7 @@
   -webkit-transition: opacity .5s ease .2s, -webkit-transform .5s ease .2s;
   -o-transition: opacity .5s ease .2s, transform .5s ease .2s;
   transition: opacity .5s ease .2s, transform .5s ease .2s;
+  cursor: pointer;
 }
 
 /* !!экспременты с псевдоклассами */
